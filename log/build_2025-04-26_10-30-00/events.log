@@ -1,0 +1,109 @@
+[0.000000] (-) TimerEvent: {}
+[0.000272] (ins_listener) JobQueued: {'identifier': 'ins_listener', 'dependencies': OrderedDict()}
+[0.000430] (ins_listener) JobStarted: {'identifier': 'ins_listener'}
+[0.005301] (ins_listener) JobProgress: {'identifier': 'ins_listener', 'progress': 'cmake'}
+[0.005676] (ins_listener) JobProgress: {'identifier': 'ins_listener', 'progress': 'build'}
+[0.006137] (ins_listener) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/lsz/ros2_ins_ws/build/ins_listener', '--', '-j8', '-l8'], 'cwd': '/home/lsz/ros2_ins_ws/build/ins_listener', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'lsz'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/usr/lib/x86_64-linux-gnu:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/lsz'), ('OLDPWD', '/home/lsz'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '2470'), ('SYSTEMD_EXEC_PID', '2776'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '24625'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('https_proxy', 'http://127.0.0.1:7890'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'lsz'), ('http_proxy', 'http://127.0.0.1:7890'), ('JOURNAL_STREAM', '8:123994'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lsz'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/lsz/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/li:@/tmp/.ICE-unix/2736,unix/li:/tmp/.ICE-unix/2736'), ('INVOCATION_ID', 'ded742071c8541a48de3442e5d03ac08'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.4QHP52'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:b84decac-ce95-4a51-9359-f494a31681a2'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lsz/ros2_ins_ws/build/ins_listener'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/lsz/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.036669] (ins_listener) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target gps_converter_node\x1b[0m\n'}
+[0.044415] (ins_listener) StdoutLine: {'line': b'[ 33%] Built target gps_subscriber\n'}
+[0.044904] (ins_listener) StdoutLine: {'line': b'[ 66%] Built target gps_publisher_from_file\n'}
+[0.049469] (ins_listener) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/gps_converter_node.dir/src/gps_converter_node.cpp.o\x1b[0m\n'}
+[0.099946] (-) TimerEvent: {}
+[0.200350] (-) TimerEvent: {}
+[0.300728] (-) TimerEvent: {}
+[0.401048] (-) TimerEvent: {}
+[0.501392] (-) TimerEvent: {}
+[0.601719] (-) TimerEvent: {}
+[0.702040] (-) TimerEvent: {}
+[0.802363] (-) TimerEvent: {}
+[0.902690] (-) TimerEvent: {}
+[1.003196] (-) TimerEvent: {}
+[1.103557] (-) TimerEvent: {}
+[1.203840] (-) TimerEvent: {}
+[1.304209] (-) TimerEvent: {}
+[1.404612] (-) TimerEvent: {}
+[1.504972] (-) TimerEvent: {}
+[1.605308] (-) TimerEvent: {}
+[1.706462] (-) TimerEvent: {}
+[1.806733] (-) TimerEvent: {}
+[1.907104] (-) TimerEvent: {}
+[2.007384] (-) TimerEvent: {}
+[2.107663] (-) TimerEvent: {}
+[2.207950] (-) TimerEvent: {}
+[2.308241] (-) TimerEvent: {}
+[2.408583] (-) TimerEvent: {}
+[2.508853] (-) TimerEvent: {}
+[2.609147] (-) TimerEvent: {}
+[2.709423] (-) TimerEvent: {}
+[2.809782] (-) TimerEvent: {}
+[2.910139] (-) TimerEvent: {}
+[3.010518] (-) TimerEvent: {}
+[3.110838] (-) TimerEvent: {}
+[3.211195] (-) TimerEvent: {}
+[3.311597] (-) TimerEvent: {}
+[3.411886] (-) TimerEvent: {}
+[3.512178] (-) TimerEvent: {}
+[3.612445] (-) TimerEvent: {}
+[3.712773] (-) TimerEvent: {}
+[3.813056] (-) TimerEvent: {}
+[3.913334] (-) TimerEvent: {}
+[4.013629] (-) TimerEvent: {}
+[4.113926] (-) TimerEvent: {}
+[4.214202] (-) TimerEvent: {}
+[4.314490] (-) TimerEvent: {}
+[4.414852] (-) TimerEvent: {}
+[4.515155] (-) TimerEvent: {}
+[4.615496] (-) TimerEvent: {}
+[4.715841] (-) TimerEvent: {}
+[4.816176] (-) TimerEvent: {}
+[4.916506] (-) TimerEvent: {}
+[5.016834] (-) TimerEvent: {}
+[5.117111] (-) TimerEvent: {}
+[5.217388] (-) TimerEvent: {}
+[5.317681] (-) TimerEvent: {}
+[5.418073] (-) TimerEvent: {}
+[5.518461] (-) TimerEvent: {}
+[5.618739] (-) TimerEvent: {}
+[5.719018] (-) TimerEvent: {}
+[5.819324] (-) TimerEvent: {}
+[5.919698] (-) TimerEvent: {}
+[6.020060] (-) TimerEvent: {}
+[6.120449] (-) TimerEvent: {}
+[6.220887] (-) TimerEvent: {}
+[6.321268] (-) TimerEvent: {}
+[6.421612] (-) TimerEvent: {}
+[6.521995] (-) TimerEvent: {}
+[6.622349] (-) TimerEvent: {}
+[6.722656] (-) TimerEvent: {}
+[6.751262] (ins_listener) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable gps_converter_node\x1b[0m\n'}
+[6.822852] (-) TimerEvent: {}
+[6.923272] (-) TimerEvent: {}
+[7.023657] (-) TimerEvent: {}
+[7.121970] (ins_listener) StdoutLine: {'line': b'[100%] Built target gps_converter_node\n'}
+[7.123753] (-) TimerEvent: {}
+[7.129834] (ins_listener) CommandEnded: {'returncode': 0}
+[7.130592] (ins_listener) JobProgress: {'identifier': 'ins_listener', 'progress': 'install'}
+[7.136640] (ins_listener) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/lsz/ros2_ins_ws/build/ins_listener'], 'cwd': '/home/lsz/ros2_ins_ws/build/ins_listener', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'lsz'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/usr/lib/x86_64-linux-gnu:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/lsz'), ('OLDPWD', '/home/lsz'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '2470'), ('SYSTEMD_EXEC_PID', '2776'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '24625'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('https_proxy', 'http://127.0.0.1:7890'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'lsz'), ('http_proxy', 'http://127.0.0.1:7890'), ('JOURNAL_STREAM', '8:123994'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lsz'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/lsz/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/li:@/tmp/.ICE-unix/2736,unix/li:/tmp/.ICE-unix/2736'), ('INVOCATION_ID', 'ded742071c8541a48de3442e5d03ac08'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.4QHP52'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:b84decac-ce95-4a51-9359-f494a31681a2'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lsz/ros2_ins_ws/build/ins_listener'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/lsz/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[7.141632] (ins_listener) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.142379] (ins_listener) StdoutLine: {'line': b'-- Up-to-date: /home/lsz/ros2_ins_ws/install/ins_listener/lib/ins_listener/gps_subscriber\n'}
+[7.142898] (ins_listener) StdoutLine: {'line': b'-- Installing: /home/lsz/ros2_ins_ws/install/ins_listener/lib/ins_listener/gps_converter_node\n'}
+[7.145615] (ins_listener) StdoutLine: {'line': b'-- Set runtime path of "/home/lsz/ros2_ins_ws/install/ins_listener/lib/ins_listener/gps_converter_node" to ""\n'}
+[7.146002] (ins_listener) StdoutLine: {'line': b'-- Up-to-date: /home/lsz/ros2_ins_ws/install/ins_listener/lib/ins_listener/gps_publisher_from_file\n'}
+[7.146164] (ins_listener) StdoutLine: {'line': b'-- Up-to-date: /home/lsz/ros2_ins_ws/install/ins_listener/share/ament_index/resource_index/package_run_dependencies/ins_listener\n'}
+[7.146303] (ins_listener) StdoutLine: {'line': b'-- Up-to-date: /home/lsz/ros2_ins_ws/install/ins_listener/share/ament_index/resource_index/parent_prefix_path/ins_listener\n'}
+[7.146428] (ins_listener) StdoutLine: {'line': b'-- Up-to-date: /home/lsz/ros2_ins_ws/install/ins_listener/share/ins_listener/environment/ament_prefix_path.sh\n'}
+[7.146491] (ins_listener) StdoutLine: {'line': b'-- Up-to-date: /home/lsz/ros2_ins_ws/install/ins_listener/share/ins_listener/environment/ament_prefix_path.dsv\n'}
+[7.146560] (ins_listener) StdoutLine: {'line': b'-- Up-to-date: /home/lsz/ros2_ins_ws/install/ins_listener/share/ins_listener/environment/path.sh\n'}
+[7.146645] (ins_listener) StdoutLine: {'line': b'-- Up-to-date: /home/lsz/ros2_ins_ws/install/ins_listener/share/ins_listener/environment/path.dsv\n'}
+[7.146743] (ins_listener) StdoutLine: {'line': b'-- Up-to-date: /home/lsz/ros2_ins_ws/install/ins_listener/share/ins_listener/local_setup.bash\n'}
+[7.146847] (ins_listener) StdoutLine: {'line': b'-- Up-to-date: /home/lsz/ros2_ins_ws/install/ins_listener/share/ins_listener/local_setup.sh\n'}
+[7.146933] (ins_listener) StdoutLine: {'line': b'-- Up-to-date: /home/lsz/ros2_ins_ws/install/ins_listener/share/ins_listener/local_setup.zsh\n'}
+[7.147018] (ins_listener) StdoutLine: {'line': b'-- Up-to-date: /home/lsz/ros2_ins_ws/install/ins_listener/share/ins_listener/local_setup.dsv\n'}
+[7.147081] (ins_listener) StdoutLine: {'line': b'-- Installing: /home/lsz/ros2_ins_ws/install/ins_listener/share/ins_listener/package.dsv\n'}
+[7.147167] (ins_listener) StdoutLine: {'line': b'-- Up-to-date: /home/lsz/ros2_ins_ws/install/ins_listener/share/ament_index/resource_index/packages/ins_listener\n'}
+[7.147253] (ins_listener) StdoutLine: {'line': b'-- Up-to-date: /home/lsz/ros2_ins_ws/install/ins_listener/share/ins_listener/cmake/ins_listenerConfig.cmake\n'}
+[7.147349] (ins_listener) StdoutLine: {'line': b'-- Up-to-date: /home/lsz/ros2_ins_ws/install/ins_listener/share/ins_listener/cmake/ins_listenerConfig-version.cmake\n'}
+[7.147435] (ins_listener) StdoutLine: {'line': b'-- Up-to-date: /home/lsz/ros2_ins_ws/install/ins_listener/share/ins_listener/package.xml\n'}
+[7.148095] (ins_listener) CommandEnded: {'returncode': 0}
+[7.161059] (ins_listener) JobEnded: {'identifier': 'ins_listener', 'rc': 0}
+[7.161667] (-) EventReactorShutdown: {}

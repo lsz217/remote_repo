@@ -1,0 +1,27 @@
+[0.006s] Invoking command in '/home/lsz/ros2_ins_ws/build/ins_listener': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lsz/ros2_ins_ws/build/ins_listener -- -j8 -l8
+[0.041s] [ 75%] Built target gps_subscriber
+[0.041s] [ 75%] [32mBuilding CXX object CMakeFiles/gps_converter_node.dir/src/gps_converter_node.cpp.o[0m
+[6.570s] [100%] [32m[1mLinking CXX executable gps_converter_node[0m
+[6.896s] [100%] Built target gps_converter_node
+[6.903s] Invoked command in '/home/lsz/ros2_ins_ws/build/ins_listener' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lsz/ros2_ins_ws/build/ins_listener -- -j8 -l8
+[6.910s] Invoking command in '/home/lsz/ros2_ins_ws/build/ins_listener': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lsz/ros2_ins_ws/build/ins_listener
+[6.915s] -- Install configuration: ""
+[6.916s] -- Up-to-date: /home/lsz/ros2_ins_ws/install/ins_listener/lib/ins_listener/gps_subscriber
+[6.916s] -- Installing: /home/lsz/ros2_ins_ws/install/ins_listener/lib/ins_listener/gps_converter_node
+[6.918s] -- Set runtime path of "/home/lsz/ros2_ins_ws/install/ins_listener/lib/ins_listener/gps_converter_node" to ""
+[6.918s] -- Up-to-date: /home/lsz/ros2_ins_ws/install/ins_listener/share/ament_index/resource_index/package_run_dependencies/ins_listener
+[6.918s] -- Up-to-date: /home/lsz/ros2_ins_ws/install/ins_listener/share/ament_index/resource_index/parent_prefix_path/ins_listener
+[6.918s] -- Up-to-date: /home/lsz/ros2_ins_ws/install/ins_listener/share/ins_listener/environment/ament_prefix_path.sh
+[6.918s] -- Up-to-date: /home/lsz/ros2_ins_ws/install/ins_listener/share/ins_listener/environment/ament_prefix_path.dsv
+[6.919s] -- Up-to-date: /home/lsz/ros2_ins_ws/install/ins_listener/share/ins_listener/environment/path.sh
+[6.919s] -- Up-to-date: /home/lsz/ros2_ins_ws/install/ins_listener/share/ins_listener/environment/path.dsv
+[6.919s] -- Up-to-date: /home/lsz/ros2_ins_ws/install/ins_listener/share/ins_listener/local_setup.bash
+[6.919s] -- Up-to-date: /home/lsz/ros2_ins_ws/install/ins_listener/share/ins_listener/local_setup.sh
+[6.919s] -- Up-to-date: /home/lsz/ros2_ins_ws/install/ins_listener/share/ins_listener/local_setup.zsh
+[6.919s] -- Up-to-date: /home/lsz/ros2_ins_ws/install/ins_listener/share/ins_listener/local_setup.dsv
+[6.919s] -- Installing: /home/lsz/ros2_ins_ws/install/ins_listener/share/ins_listener/package.dsv
+[6.919s] -- Up-to-date: /home/lsz/ros2_ins_ws/install/ins_listener/share/ament_index/resource_index/packages/ins_listener
+[6.919s] -- Up-to-date: /home/lsz/ros2_ins_ws/install/ins_listener/share/ins_listener/cmake/ins_listenerConfig.cmake
+[6.919s] -- Up-to-date: /home/lsz/ros2_ins_ws/install/ins_listener/share/ins_listener/cmake/ins_listenerConfig-version.cmake
+[6.920s] -- Up-to-date: /home/lsz/ros2_ins_ws/install/ins_listener/share/ins_listener/package.xml
+[6.920s] Invoked command in '/home/lsz/ros2_ins_ws/build/ins_listener' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lsz/ros2_ins_ws/build/ins_listener

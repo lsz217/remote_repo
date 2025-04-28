@@ -1,0 +1,10 @@
+[0.007s] Invoking command in '/home/lsz/ros2_ins_ws/build/ins_listener': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lsz/ros2_ins_ws/build/ins_listener -- -j8 -l8
+[0.021s] [31mCMake Error at CMakeLists.txt:13:
+[0.021s]   Parse error.  Expected a command name, got unquoted argument with text
+[0.021s]   "//".
+[0.021s] 
+[0.022s] [0m
+[0.022s] -- Configuring incomplete, errors occurred!
+[0.022s] See also "/home/lsz/ros2_ins_ws/build/ins_listener/CMakeFiles/CMakeOutput.log".
+[0.023s] gmake: *** [Makefile:308：cmake_check_build_system] 错误 1
+[0.025s] Invoked command in '/home/lsz/ros2_ins_ws/build/ins_listener' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lsz/ros2_ins_ws/build/ins_listener -- -j8 -l8

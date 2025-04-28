@@ -1,0 +1,40 @@
+[0.006s] Invoking command in '/home/lsz/ros2_ins_ws/build/ins_listener': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lsz/ros2_ins_ws/build/ins_listener -- -j8 -l8
+[0.022s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.101s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[0.118s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.120s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.123s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.129s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.137s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.156s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.157s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.221s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.251s] -- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.268s] -- Found tf2: 0.25.12 (/opt/ros/humble/share/tf2/cmake)
+[0.270s] -- Found tf2_ros: 0.25.12 (/opt/ros/humble/share/tf2_ros/cmake)
+[0.317s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.362s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.362s] -- Configured cppcheck include dirs: 
+[0.363s] -- Configured cppcheck exclude dirs and/or files: 
+[0.363s] -- Added test 'lint_cmake' to check CMake code style
+[0.364s] -- Added test 'uncrustify' to check C / C++ code style
+[0.364s] -- Configured uncrustify additional arguments: 
+[0.364s] -- Added test 'xmllint' to check XML markup files
+[0.364s] -- Configuring done
+[0.376s] -- Generating done
+[0.381s] -- Build files have been written to: /home/lsz/ros2_ins_ws/build/ins_listener
+[0.399s] [35m[1mConsolidate compiler generated dependencies of target gps_subscriber[0m
+[0.399s] [35m[1mConsolidate compiler generated dependencies of target gps_converter_node[0m
+[0.410s] [ 25%] [32mBuilding CXX object CMakeFiles/gps_subscriber.dir/src/gps_subscriber.cpp.o[0m
+[0.411s] [ 50%] [32mBuilding CXX object CMakeFiles/gps_converter_node.dir/src/gps_converter_node.cpp.o[0m
+[0.554s] [01m[K/home/lsz/ros2_ins_ws/src/ins_listener/src/gps_converter_node.cpp:8:10:[m[K [01;31m[Kfatal error: [m[KEigen/Dense: 没有那个文件或目录
+[0.554s]     8 | #include [01;31m[K<Eigen/Dense>[m[K
+[0.554s]       |          [01;31m[K^~~~~~~~~~~~~[m[K
+[0.554s] compilation terminated.
+[0.558s] gmake[2]: *** [CMakeFiles/gps_converter_node.dir/build.make:76：CMakeFiles/gps_converter_node.dir/src/gps_converter_node.cpp.o] 错误 1
+[0.558s] gmake[1]: *** [CMakeFiles/Makefile2:165：CMakeFiles/gps_converter_node.dir/all] 错误 2
+[0.558s] gmake[1]: *** 正在等待未完成的任务....
+[5.792s] [ 75%] [32m[1mLinking CXX executable gps_subscriber[0m
+[6.057s] [ 75%] Built target gps_subscriber
+[6.057s] gmake: *** [Makefile:146：all] 错误 2
+[6.059s] Invoked command in '/home/lsz/ros2_ins_ws/build/ins_listener' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lsz/ros2_ins_ws/build/ins_listener -- -j8 -l8

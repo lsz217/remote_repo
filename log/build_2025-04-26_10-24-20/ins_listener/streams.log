@@ -1,0 +1,37 @@
+[0.007s] Invoking command in '/home/lsz/ros2_ins_ws/build/ins_listener': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lsz/ros2_ins_ws/build/ins_listener -- -j8 -l8
+[0.072s] [ 66%] [32mBuilding CXX object CMakeFiles/gps_converter_node.dir/src/gps_converter_node.cpp.o[0m
+[0.072s] [ 66%] Built target gps_subscriber
+[0.072s] [ 83%] Built target gps_publisher_from_file
+[2.303s] In file included from [01m[K/usr/include/c++/11/memory:76[m[K,
+[2.303s]                  from [01m[K/home/lsz/ros2_ins_ws/src/ins_listener/src/gps_converter_node.cpp:2[m[K:
+[2.303s] /usr/include/c++/11/bits/unique_ptr.h: In instantiation of ‘[01m[Ktypename std::_MakeUniq<_Tp>::__single_object std::make_unique(_Args&& ...) [with _Tp = rclcpp::TimerBase; _Args = {std::shared_ptr<rclcpp::WallTimer<std::_Bind<void (GpsConverterNode::*(GpsConverterNode*))()>, 0> >}; typename std::_MakeUniq<_Tp>::__single_object = std::unique_ptr<rclcpp::TimerBase>][m[K’:
+[2.303s] [01m[K/home/lsz/ros2_ins_ws/src/ins_listener/src/gps_converter_node.cpp:72:53:[m[K   required from here
+[2.303s] [01m[K/usr/include/c++/11/bits/unique_ptr.h:962:30:[m[K [01;31m[Kerror: [m[Kinvalid new-expression of abstract class type ‘[01m[Krclcpp::TimerBase[m[K’
+[2.303s]   962 |     { return unique_ptr<_Tp>([01;31m[Knew _Tp(std::forward<_Args>(__args)...)[m[K); }
+[2.303s]       |                              [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.303s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:30[m[K,
+[2.303s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.303s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.303s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.303s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.303s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.303s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.303s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.303s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.303s]                  from [01m[K/home/lsz/ros2_ins_ws/src/ins_listener/src/gps_converter_node.cpp:5[m[K:
+[2.303s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/timer.hpp:46:7:[m[K [01;36m[Knote: [m[K  because the following virtual functions are pure within ‘[01m[Krclcpp::TimerBase[m[K’:
+[2.303s]    46 | class [01;36m[KTimerBase[m[K
+[2.303s]       |       [01;36m[K^~~~~~~~~[m[K
+[2.303s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/timer.hpp:103:3:[m[K [01;36m[Knote: [m[K    ‘[01m[Kvirtual bool rclcpp::TimerBase::call()[m[K’
+[2.303s]   103 |   [01;36m[Kcall[m[K() = 0;
+[2.303s]       |   [01;36m[K^~~~[m[K
+[2.304s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/timer.hpp:108:3:[m[K [01;36m[Knote: [m[K    ‘[01m[Kvirtual void rclcpp::TimerBase::execute_callback()[m[K’
+[2.304s]   108 |   [01;36m[Kexecute_callback[m[K() = 0;
+[2.304s]       |   [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[2.304s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/timer.hpp:126:16:[m[K [01;36m[Knote: [m[K    ‘[01m[Kvirtual bool rclcpp::TimerBase::is_steady()[m[K’
+[2.304s]   126 |   virtual bool [01;36m[Kis_steady[m[K() = 0;
+[2.304s]       |                [01;36m[K^~~~~~~~~[m[K
+[4.197s] gmake[2]: *** [CMakeFiles/gps_converter_node.dir/build.make:76：CMakeFiles/gps_converter_node.dir/src/gps_converter_node.cpp.o] 错误 1
+[4.197s] gmake[1]: *** [CMakeFiles/Makefile2:193：CMakeFiles/gps_converter_node.dir/all] 错误 2
+[4.197s] gmake: *** [Makefile:146：all] 错误 2
+[4.199s] Invoked command in '/home/lsz/ros2_ins_ws/build/ins_listener' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lsz/ros2_ins_ws/build/ins_listener -- -j8 -l8

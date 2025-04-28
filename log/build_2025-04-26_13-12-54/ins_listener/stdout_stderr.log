@@ -1,0 +1,24 @@
+[100%] Built target gps_subscriber
+[100%] Built target gps_publisher_from_file
+[100%] Built target gps_converter_node
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/lsz/ros2_ins_ws/install/ins_listener/lib/ins_listener/gps_subscriber
+-- Up-to-date symlink: /home/lsz/ros2_ins_ws/install/ins_listener/lib/ins_listener/gps_converter_node
+-- Up-to-date symlink: /home/lsz/ros2_ins_ws/install/ins_listener/lib/ins_listener/gps_publisher_from_file
+-- Up-to-date symlink: /home/lsz/ros2_ins_ws/install/ins_listener/share/ins_listener/launch/gps_launch.py
+-- Up-to-date symlink: /home/lsz/ros2_ins_ws/install/ins_listener/share/ament_index/resource_index/package_run_dependencies/ins_listener
+-- Up-to-date symlink: /home/lsz/ros2_ins_ws/install/ins_listener/share/ament_index/resource_index/parent_prefix_path/ins_listener
+-- Up-to-date symlink: /home/lsz/ros2_ins_ws/install/ins_listener/share/ins_listener/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/lsz/ros2_ins_ws/install/ins_listener/share/ins_listener/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/lsz/ros2_ins_ws/install/ins_listener/share/ins_listener/environment/path.sh
+-- Up-to-date symlink: /home/lsz/ros2_ins_ws/install/ins_listener/share/ins_listener/environment/path.dsv
+-- Up-to-date symlink: /home/lsz/ros2_ins_ws/install/ins_listener/share/ins_listener/local_setup.bash
+-- Up-to-date symlink: /home/lsz/ros2_ins_ws/install/ins_listener/share/ins_listener/local_setup.sh
+-- Up-to-date symlink: /home/lsz/ros2_ins_ws/install/ins_listener/share/ins_listener/local_setup.zsh
+-- Up-to-date symlink: /home/lsz/ros2_ins_ws/install/ins_listener/share/ins_listener/local_setup.dsv
+-- Symlinking: /home/lsz/ros2_ins_ws/install/ins_listener/share/ins_listener/package.dsv
+-- Up-to-date symlink: /home/lsz/ros2_ins_ws/install/ins_listener/share/ament_index/resource_index/packages/ins_listener
+-- Up-to-date symlink: /home/lsz/ros2_ins_ws/install/ins_listener/share/ins_listener/cmake/ins_listenerConfig.cmake
+-- Up-to-date symlink: /home/lsz/ros2_ins_ws/install/ins_listener/share/ins_listener/cmake/ins_listenerConfig-version.cmake
+-- Up-to-date symlink: /home/lsz/ros2_ins_ws/install/ins_listener/share/ins_listener/package.xml

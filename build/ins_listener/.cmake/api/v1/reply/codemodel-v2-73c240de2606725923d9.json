@@ -1,0 +1,97 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-b85359f54a5dd6424e78.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "ins_listener",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "gps_converter_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gps_converter_node-18bfe4b880165d84cc9f.json",
+					"name" : "gps_converter_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gps_publisher_from_file::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gps_publisher_from_file-aaf9cf032d87d651ea46.json",
+					"name" : "gps_publisher_from_file",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gps_subscriber::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gps_subscriber-6b49a43514dc34a6491b.json",
+					"name" : "gps_subscriber",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ins_listener_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ins_listener_uninstall-1717e9bb703459728026.json",
+					"name" : "ins_listener_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-5f40dd43d10f372a4953.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/lsz/ros2_ins_ws/build/ins_listener",
+		"source" : "/home/lsz/ros2_ins_ws/src/ins_listener"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

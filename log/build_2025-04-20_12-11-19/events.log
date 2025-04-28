@@ -1,0 +1,108 @@
+[0.000000] (-) TimerEvent: {}
+[0.000223] (ins_listener) JobQueued: {'identifier': 'ins_listener', 'dependencies': OrderedDict()}
+[0.000364] (ins_listener) JobStarted: {'identifier': 'ins_listener'}
+[0.004675] (ins_listener) JobProgress: {'identifier': 'ins_listener', 'progress': 'cmake'}
+[0.005031] (ins_listener) JobProgress: {'identifier': 'ins_listener', 'progress': 'build'}
+[0.005448] (ins_listener) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/lsz/ros2_ins_ws/build/ins_listener', '--', '-j8', '-l8'], 'cwd': '/home/lsz/ros2_ins_ws/build/ins_listener', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'lsz'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/usr/lib/x86_64-linux-gnu:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/lsz'), ('OLDPWD', '/home/lsz'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1354'), ('SYSTEMD_EXEC_PID', '1540'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '18855'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('https_proxy', 'http://127.0.0.1:7890'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'lsz'), ('http_proxy', 'http://127.0.0.1:7890'), ('JOURNAL_STREAM', '8:16449'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lsz'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/lsz/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/li:@/tmp/.ICE-unix/1509,unix/li:/tmp/.ICE-unix/1509'), ('INVOCATION_ID', 'b46bdc0742a947aa9d55f156290143bf'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.J8D942'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:416a63be-e490-4094-b78a-57cb9536a0e2'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lsz/ros2_ins_ws/build/ins_listener'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/lsz/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.022205] (ins_listener) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099863] (-) TimerEvent: {}
+[0.103498] (ins_listener) StdoutLine: {'line': b'-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.121445] (ins_listener) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.123037] (ins_listener) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.126667] (ins_listener) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.132825] (ins_listener) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.140472] (ins_listener) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.161931] (ins_listener) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.162805] (ins_listener) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.199972] (-) TimerEvent: {}
+[0.228463] (ins_listener) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.258570] (ins_listener) StdoutLine: {'line': b'-- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[0.276195] (ins_listener) StdoutLine: {'line': b'-- Found tf2: 0.25.12 (/opt/ros/humble/share/tf2/cmake)\n'}
+[0.278478] (ins_listener) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.12 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[0.300083] (-) TimerEvent: {}
+[0.333509] (ins_listener) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.383241] (ins_listener) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.383480] (ins_listener) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[0.383556] (ins_listener) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.383760] (ins_listener) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.384222] (ins_listener) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.384338] (ins_listener) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.384495] (ins_listener) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.385006] (ins_listener) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.394506] (ins_listener) StdoutLine: {'line': b'-- Generating done\n'}
+[0.398289] (ins_listener) StdoutLine: {'line': b'-- Build files have been written to: /home/lsz/ros2_ins_ws/build/ins_listener\n'}
+[0.400157] (-) TimerEvent: {}
+[0.417556] (ins_listener) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target gps_subscriber\x1b[0m\n'}
+[0.417735] (ins_listener) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target gps_converter_node\x1b[0m\n'}
+[0.429298] (ins_listener) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/gps_subscriber.dir/src/gps_subscriber.cpp.o\x1b[0m\n'}
+[0.429494] (ins_listener) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/gps_converter_node.dir/src/gps_converter_node.cpp.o\x1b[0m\n'}
+[0.500284] (-) TimerEvent: {}
+[0.571992] (ins_listener) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lsz/ros2_ins_ws/src/ins_listener/src/gps_converter_node.cpp:8:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[KEigen/Dense: \xe6\xb2\xa1\xe6\x9c\x89\xe9\x82\xa3\xe4\xb8\xaa\xe6\x96\x87\xe4\xbb\xb6\xe6\x88\x96\xe7\x9b\xae\xe5\xbd\x95\n'}
+[0.572184] (ins_listener) StderrLine: {'line': b'    8 | #include \x1b[01;31m\x1b[K<Eigen/Dense>\x1b[m\x1b[K\n'}
+[0.572249] (ins_listener) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.572294] (ins_listener) StderrLine: {'line': b'compilation terminated.\n'}
+[0.573942] (ins_listener) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/gps_converter_node.dir/build.make:76\xef\xbc\x9aCMakeFiles/gps_converter_node.dir/src/gps_converter_node.cpp.o] \xe9\x94\x99\xe8\xaf\xaf 1\n'}
+[0.574118] (ins_listener) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:165\xef\xbc\x9aCMakeFiles/gps_converter_node.dir/all] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[0.574230] (ins_listener) StderrLine: {'line': b'gmake[1]: *** \xe6\xad\xa3\xe5\x9c\xa8\xe7\xad\x89\xe5\xbe\x85\xe6\x9c\xaa\xe5\xae\x8c\xe6\x88\x90\xe7\x9a\x84\xe4\xbb\xbb\xe5\x8a\xa1....\n'}
+[0.600413] (-) TimerEvent: {}
+[0.700774] (-) TimerEvent: {}
+[0.801091] (-) TimerEvent: {}
+[0.901378] (-) TimerEvent: {}
+[1.001691] (-) TimerEvent: {}
+[1.102031] (-) TimerEvent: {}
+[1.202339] (-) TimerEvent: {}
+[1.302718] (-) TimerEvent: {}
+[1.403083] (-) TimerEvent: {}
+[1.503384] (-) TimerEvent: {}
+[1.603677] (-) TimerEvent: {}
+[1.704041] (-) TimerEvent: {}
+[1.804368] (-) TimerEvent: {}
+[1.904662] (-) TimerEvent: {}
+[2.005009] (-) TimerEvent: {}
+[2.105369] (-) TimerEvent: {}
+[2.205716] (-) TimerEvent: {}
+[2.306010] (-) TimerEvent: {}
+[2.406396] (-) TimerEvent: {}
+[2.506781] (-) TimerEvent: {}
+[2.607075] (-) TimerEvent: {}
+[2.707470] (-) TimerEvent: {}
+[2.807864] (-) TimerEvent: {}
+[2.908158] (-) TimerEvent: {}
+[3.008535] (-) TimerEvent: {}
+[3.108904] (-) TimerEvent: {}
+[3.209287] (-) TimerEvent: {}
+[3.309581] (-) TimerEvent: {}
+[3.409864] (-) TimerEvent: {}
+[3.510239] (-) TimerEvent: {}
+[3.610519] (-) TimerEvent: {}
+[3.710819] (-) TimerEvent: {}
+[3.811150] (-) TimerEvent: {}
+[3.911437] (-) TimerEvent: {}
+[4.011723] (-) TimerEvent: {}
+[4.112071] (-) TimerEvent: {}
+[4.212397] (-) TimerEvent: {}
+[4.312806] (-) TimerEvent: {}
+[4.413190] (-) TimerEvent: {}
+[4.513566] (-) TimerEvent: {}
+[4.613866] (-) TimerEvent: {}
+[4.714242] (-) TimerEvent: {}
+[4.814490] (-) TimerEvent: {}
+[4.914842] (-) TimerEvent: {}
+[5.015187] (-) TimerEvent: {}
+[5.115483] (-) TimerEvent: {}
+[5.215815] (-) TimerEvent: {}
+[5.316219] (-) TimerEvent: {}
+[5.416568] (-) TimerEvent: {}
+[5.516927] (-) TimerEvent: {}
+[5.617273] (-) TimerEvent: {}
+[5.717641] (-) TimerEvent: {}
+[5.817952] (-) TimerEvent: {}
+[5.873312] (ins_listener) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable gps_subscriber\x1b[0m\n'}
+[5.918081] (-) TimerEvent: {}
+[6.018462] (-) TimerEvent: {}
+[6.118830] (-) TimerEvent: {}
+[6.131887] (ins_listener) StdoutLine: {'line': b'[ 75%] Built target gps_subscriber\n'}
+[6.132789] (ins_listener) StderrLine: {'line': b'gmake: *** [Makefile:146\xef\xbc\x9aall] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[6.134302] (ins_listener) CommandEnded: {'returncode': 2}
+[6.141061] (ins_listener) JobEnded: {'identifier': 'ins_listener', 'rc': 2}
+[6.151526] (-) EventReactorShutdown: {}

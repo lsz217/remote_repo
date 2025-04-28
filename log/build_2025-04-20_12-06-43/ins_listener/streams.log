@@ -1,0 +1,13 @@
+[0.006s] Invoking command in '/home/lsz/ros2_ins_ws/build/ins_listener': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lsz/ros2_ins_ws/build/ins_listener -- -j8 -l8
+[0.032s] [35m[1mConsolidate compiler generated dependencies of target gps_converter_node[0m
+[0.032s] [35m[1mConsolidate compiler generated dependencies of target gps_subscriber[0m
+[0.042s] [ 50%] Built target gps_subscriber
+[0.042s] [ 75%] [32mBuilding CXX object CMakeFiles/gps_converter_node.dir/src/gps_converter_node.cpp.o[0m
+[0.190s] [01m[K/home/lsz/ros2_ins_ws/src/ins_listener/src/gps_converter_node.cpp:8:10:[m[K [01;31m[Kfatal error: [m[KEigen/Dense: 没有那个文件或目录
+[0.190s]     8 | #include [01;31m[K<Eigen/Dense>[m[K
+[0.190s]       |          [01;31m[K^~~~~~~~~~~~~[m[K
+[0.191s] compilation terminated.
+[0.194s] gmake[2]: *** [CMakeFiles/gps_converter_node.dir/build.make:76：CMakeFiles/gps_converter_node.dir/src/gps_converter_node.cpp.o] 错误 1
+[0.194s] gmake[1]: *** [CMakeFiles/Makefile2:165：CMakeFiles/gps_converter_node.dir/all] 错误 2
+[0.194s] gmake: *** [Makefile:146：all] 错误 2
+[0.195s] Invoked command in '/home/lsz/ros2_ins_ws/build/ins_listener' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lsz/ros2_ins_ws/build/ins_listener -- -j8 -l8
